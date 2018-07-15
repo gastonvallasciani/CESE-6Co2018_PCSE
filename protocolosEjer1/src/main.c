@@ -14,9 +14,11 @@
 /*==================[macros and definitions]=================================*/
 #define FILENAME "newFile.txt"
 #define CONNECTOR ", "
+#define SAMPLES 20
 /*==================[internal data declaration]==============================*/
 static FATFS fs;           // <-- FatFs work area needed for each volume
 static FIL fp;             // <-- File object needed for each open file
+static uint16_t recordCount=0;
 /*==================[internal functions declaration]=========================*/
 
 /*==================[internal data definition]===============================*/
@@ -25,7 +27,7 @@ static FIL fp;             // <-- File object needed for each open file
 
 /* Buffer */
 static char uartBuff[10];
-static char fileBuff[40];
+static char fileBuff[50];
 
 typedef struct{
 	uint16_t adcChannel1;
@@ -41,6 +43,7 @@ adcChannel_t dataLogger;
 /*==================[external functions definition]==========================*/
 void adcStructConfig(void);
 void formatSdBuffer(rtc_t * rtc,adcChannel_t *adcChannel);
+void recordStringInSdCard(char *str, uint32_t strLen);
 // FUNCION que se ejecuta cada vezque ocurre un Tick
 void diskTickHook( void *ptr );
 
@@ -179,14 +182,6 @@ int main(void){
 
      delay(2000); // El RTC tarda en setear la hora, por eso el delay
 
-     for( i=0; i<10; i++ ){
-        /* Leer fecha y hora */
-        val = rtcRead( &rtc );
-        /* Mostrar fecha y hora en formato "DD/MM/YYYY, HH:MM:SS" */
-        showDateAndTime( &rtc );
-        delay(1000);
-     }
-
      rtc.year = 2018;
      rtc.month = 7;
      rtc.mday = 13;
@@ -198,12 +193,6 @@ int main(void){
      /* Establecer fecha y hora */
      val = rtcWrite( &rtc );
 
-
-
-     // ------ PROGRAMA QUE ESCRIBE EN LA SD -------
-
-     UINT nbytes;
-
      // Give a work area to the default drive
      if( f_mount( &fs, "", 0 ) != FR_OK ){
        // If this fails, it means that the function could
@@ -211,55 +200,24 @@ int main(void){
        // Check whether the SD card is correctly connected
      }
 
-     // Create/open a file, then write a string and close it
-
-    /* uint8_t j=0;
-
-     for( j=0; j<5; j++ ){
-
-     if( f_open( &fp, FILENAME, FA_WRITE | FA_OPEN_APPEND ) == FR_OK ){
-        f_write( &fp, "NewFileOK\r\n", 11, &nbytes );
-
-        f_close(&fp);
-
-        if( nbytes == 11 ){
-          // Turn ON LEDG if the write operation was successful
-          gpioWrite( LEDG, ON );
-        }
-     } else{
-          // Turn ON LEDR if the write operation was fail
-          gpioWrite( LEDR, ON );
-       }
-     }*/
-
    /* ------------- REPETIR POR SIEMPRE ------------- */
-   while(1) {
+   while(1){
 
-	   if( delayRead( &delay1s ) ){
-	   /* Leer fecha y hora */
-		   gpioToggle( LED1);
+	if( delayRead( &delay1s ) ){
 
-	     val = rtcRead( &rtc );
-	     dataLogger.adcChannel1 = adcRead(CH1);
-	     dataLogger.adcChannel2 = adcRead(CH2);
-	     dataLogger.adcChannel3 = adcRead(CH3);
-	   /* Mostrar fecha y hora en formato "DD/MM/YYYY, HH:MM:SS" */
-	     formatSdBuffer(&rtc,&dataLogger);
-	     uartWriteString( UART_USB, fileBuff );
-	     uartWriteString( UART_USB, "\r\n" );
-	     if( f_open( &fp, FILENAME, FA_WRITE | FA_OPEN_APPEND ) == FR_OK ){
-	    	 f_write( &fp, fileBuff, strlen(fileBuff), &nbytes );
-	         f_close(&fp);
-	         if( nbytes == strlen(fileBuff) ){
-	        	 // Turn ON LEDG if the write operation was successful
-	        	 gpioToggle(LEDG);
-	         }
-	     } else{
-	             // Turn ON LEDR if the write operation was fail
-	             gpioToggle(LEDR);
-	     }
-	     //showDateAndTime( &rtc );
-	   }
+		/* Leer fecha y hora */
+		gpioToggle( LED1);
+
+		val = rtcRead( &rtc );
+		dataLogger.adcChannel1 = adcRead(CH1);
+		dataLogger.adcChannel2 = adcRead(CH2);
+		dataLogger.adcChannel3 = adcRead(CH3);
+		/* Mostrar fecha y hora en formato "DD/MM/YYYY, HH:MM:SS" */
+		formatSdBuffer(&rtc,&dataLogger);
+		uartWriteString( UART_USB, fileBuff );
+
+		recordStringInSdCard(fileBuff, strlen(fileBuff));
+	}
 
    }
 
@@ -350,6 +308,30 @@ void formatSdBuffer(rtc_t * rtc,adcChannel_t *adcChannel){
 
 	itoa( (int) (adcChannel->adcChannel3), (char*)auxBuff, 10 );
 	strncat(fileBuff,auxBuff,strlen(auxBuff));
+
+	strncat(fileBuff,"\r\n",strlen("\r\n"));
+}
+
+void recordStringInSdCard(char *str, uint32_t strLen){
+
+	UINT nbytes = 0;
+
+	// Create/open a file, then write a string and close it
+	if( f_open( &fp, FILENAME, FA_WRITE | FA_OPEN_APPEND ) == FR_OK ){
+
+	  f_write( &fp, str, strLen, &nbytes );
+	  f_close(&fp);
+
+	if( strLen == nbytes ){
+	     gpioToggle( LEDB );
+	} else{
+	        gpioToggle( LEDR );
+	  }
+
+	} else{
+	      // Turn ON LEDR if can't create/open this file
+	      gpioWrite( LEDR, ON );
+	   }
 }
 
 // FUNCION que se ejecuta cada vezque ocurre un Tick
