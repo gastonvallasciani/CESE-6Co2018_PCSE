@@ -1,0 +1,313 @@
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002678 000000ac t uartProcessIRQ
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000574 00000004 b rxIsrCallbackUART0
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000578 00000004 b txIsrCallbackUART0
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1000057c 00000004 b txIsrCallbackUART2
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000580 00000004 b txIsrCallbackUART3
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004524 00000048 t lpcUarts
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000584 00000004 b rxIsrCallbackUART2
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000588 00000004 b rxIsrCallbackUART3
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:100000d0 00000228 b fp
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:100002f8 00000230 b fs
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000528 0000000a b uartBuff
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000534 00000028 b fileBuff
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000850 0000000a t ld_word
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00085c 00000016 t ld_dword
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000874 00000008 t st_word
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00087c 00000014 t st_dword
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000890 00000012 t mem_cpy
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0008a4 0000000a t mem_set
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0008b0 0000001e t mem_cmp
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0008d0 00000010 t chk_chr
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0008e0 00000018 t clust2sect
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0008f8 00000024 t ld_clust
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00091c 00000024 t st_clust
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000940 000000d0 t create_name
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000a10 00000056 t get_ldnumber
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000a68 00000034 t validate
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000a9c 00000054 t sync_window
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000af0 00000034 t move_window
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000b24 0000007c t check_fs
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000ba0 000002d4 t find_volume
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000e74 0000010a t put_fat
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000f80 000000d0 t get_fat
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001050 000000b0 t dir_sdi
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001100 000000ca t create_chain
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0011cc 0000007c t remove_chain
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001248 00000126 t dir_next
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001370 00000054 t dir_find
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0013c4 0000008c t follow_path
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001450 0000004c t dir_alloc
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00149c 0000003a t dir_register
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0014d8 0000008c t sync_fs
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1000055c 00000002 b Fsid
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000560 00000004 b FatFs
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001a00 00000004 t chk_power
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001a04 00000024 t SSPSend
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001a28 00000018 t xmit_spi
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001a64 0000001c t rcvr_spi
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001a80 00000024 t wait_ready
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001aa4 00000018 t deselect
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001abc 00000024 t select_
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001ae0 0000007e t send_cmd
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001b60 0000005c t xmit_datablock
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001bbc 00000064 t rcvr_datablock
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000564 00000001 b Timer1
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000565 00000001 b Timer2
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000566 00000001 b CardType
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000000 00000001 d Stat
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000567 00000001 b pv.10201
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000568 00000001 b init.10200
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002248 00000010 t clearInterrupt
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002258 00000060 t serveInterrupt
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000004 00000048 d ultrasonicSensors
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0043e8 00000003 t ultrasonicSensorsIrqMap
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000050 00000004 d ClockSpeed
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0022f8 0000002c t gpioObtainPinInit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002900 00000002 t errorOcurred
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002904 00000002 t doNothing
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000054 00000040 d timer_dd
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002bdc 00000040 t Board_LED_Init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002c1c 0000003c t Board_TEC_Init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002c58 0000003c t Board_GPIO_Init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002c94 00000038 t Board_SPI_Init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002ccc 00000024 t Board_I2C_Init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002cf0 00000030 t Board_ADC_Init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00456c 00000012 t GpioPorts
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004588 00000008 t GpioButtons
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004590 0000000c t GpioLeds
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00459c 0000000c t InitClkStates
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0045a8 00000098 t pinmuxing
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000094 00000038 d i2c
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002ebc 0000002c t Chip_UART_GetIndex
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004640 00000008 t UART_BClock
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004648 00000008 t UART_PClock
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003060 00000014 t Chip_ADC_GetClockIndex
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003074 00000030 t getClkDiv
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003244 000000a8 t pll_calc_divs
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0032ec 00000104 t pll_get_frac
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0033f0 00000048 t Chip_Clock_FindBaseClock
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00365c 00000022 t Chip_Clock_GetDivRate
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1000058c 00000008 b audio_usb_pll_freq
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00465c 0000006c t periph_to_base
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0046c8 00000048 t InitClkStates
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003aac 0000001a t SSP_Write2BFifo
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003ac8 00000018 t SSP_Write1BFifo
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003ae0 0000002a t SSP_Read2BFifo
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003b0c 0000002a t SSP_Read1BFifo
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003b38 00000014 t Chip_SSP_GetClockIndex
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003b4c 00000018 t Chip_SSP_GetPeriphClockIndex
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:         U _printf_float
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004710 b __init_array_end
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004710 b __preinit_array_end
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004710 b __init_array_start
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004710 b __preinit_array_start
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003484 0000001c T Chip_Clock_GetDividerSource
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003d88 0000002e T __gnu_uldivmod_helper
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002984 00000040 T TIMER2_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00019c 00000002 W DebugMon_Handler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W RIT_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00310c 00000016 T Chip_ADC_DeInit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a080000 A __top_MFlashA512
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W ADCHS_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003dbc 0000029c T __divdi3
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000114 T __section_table_start
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W FLASH_EEPROM_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W I2C0_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0038c0 00000030 T Chip_RTC_GetFullTime
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0028c0 0000003e T delayRead
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000570 00000004 B callBackFuncParams
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000188 00000002 W HardFault_Handler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000000 A __vectors_start__
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0031d8 0000000c T Chip_ADC_SetResolution
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002648 00000030 T SysTick_Handler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000594 00000006 B dataLogger
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002f3c 00000040 T Chip_UART_SetBaud
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W SDIO_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W ATIMER_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a0 00000002 W PendSV_Handler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000184 00000002 W NMI_Handler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004718 R __exidx_end
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000150 T __data_section_table_end
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W I2C1_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W UART1_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W GPIO5_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W CAN1_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:53ff3b9e A __valid_user_code_checksum
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004718 R _etext
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0021b0 00000034 T rtcRead
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W USB1_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W I2S0_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0029c4 00000040 T TIMER3_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0036e8 0000000c T Chip_Clock_GetBaseClocktHz
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000178 0000000a T UART0_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001c8 00000012 T bss_init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W SGPIO_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001c20 00000158 T disk_initialize
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003d28 T __aeabi_uldivmod
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:100005b4 ? _noinit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0027e8 00000018 T uartWriteString
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:100005b0 00000004 B SystemCoreClock
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002ee8 00000054 T Chip_UART_Init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W ADC0_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0030b4 00000018 T readAdcVal
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000194 00000002 W UsageFault_Handler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0037b0 0000004c T Chip_Clock_GetRate
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W GPIO6_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:100005a0 00000008 B tickCounter
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001d78 00000014 T disk_status
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002dd0 0000006c T Board_SetupClocking
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:20008000 A __top_RamAHB32
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000308 00000064 T itoa
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004584 00000004 T ExtRateIn
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W IntDefaultHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000300 T __CRP_WORD_END__
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001ec0 00000284 T disk_ioctl
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0022c4 0000000a T GPIO1_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W SSP0_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004710 R __exidx_start
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002214 00000034 T rtcInit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0002fc 00000004 T CRP_WORD
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0030a4 0000000e T setStartMode
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0042c4 0000004c T __libc_init_array
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004058 0000026a T __udivdi3
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002a04 0000008c T adcInit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W ADC1_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002d44 0000003c T Board_Init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003d24 00000002 T _init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000114 T __data_section_table
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003b78 000000b0 T Chip_SSP_RWFrames_Blocking
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W RTC_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:100005b4 B _ebss
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0031e4 00000026 T Chip_ADC_EnableChannel
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002908 0000003c T TIMER0_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0025cc 0000007c T tickInit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:20010000 A __top_RamAHB_ETB16
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W SPI_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002e8c 00000030 T Chip_I2C_SetClockRate
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W LCD_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003438 0000004c T Chip_Clock_EnableCrystal
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003890 0000002e T Chip_RTC_SetFullTime
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003124 00000008 T Chip_ADC_ReadValue
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10008000 A __top_RamLoc32
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001ac 0000001a T data_init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003878 00000018 T Chip_RTC_Enable
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003184 00000020 T Chip_ADC_SetStartMode
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002944 00000040 T TIMER1_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002e68 00000024 T Chip_I2C_Init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002800 0000000a T UART2_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0035f4 00000068 T Chip_Clock_GetMainPLLHz
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003854 00000022 T Chip_RTC_ResetClockTickCounter
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0043ec 00000136 T gpioPinsInit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0027cc 0000001a T uartWriteByte
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003b64 00000012 T Chip_SSP_SetClockRate
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002570 00000016 T gpioToggle
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0022d0 0000000a T GPIO2_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002a90 00000058 T adcRead
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0036c4 00000024 T Chip_Clock_GetBaseClock
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002144 0000006c T disk_timerproc
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:100000d0 B _bss
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00312c 00000038 T Chip_ADC_ReadStatus
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0031a4 00000032 T Chip_ADC_SetSampleRate
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0019dc 00000024 T f_close
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0028a0 00000020 T delayInit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001a40 00000024 T SSPReceive
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W I2S1_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003c28 0000003e T Chip_SSP_SetBitRate
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003958 00000002 T Chip_GPIO_Init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004580 00000004 T OscRateIn
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002750 0000007c T uartInit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:100005b4 ? _end_noinit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10008000 A _vStackTop
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000300 00000008 T diskTickHook
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W SSP1_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000178 T __bss_section_table_end
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002324 0000019c T gpioInit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003910 00000048 T Chip_RTC_Init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003db8 00000002 W __aeabi_ldiv0
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004330 00000028 T strncat
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000488 00000244 T formatSdBuffer
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W USB0_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00377c 00000034 T Chip_Clock_Disable
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W GPIO3_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W SCT_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0034a0 0000001c T Chip_Clock_GetDividerDivisor
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0002fc T __CRP_WORD_START__
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004310 00000010 T memset
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00018c 00000002 W MemManage_Handler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0006cc 00000184 T main
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001940 0000009c T f_sync
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W WDT_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002818 00000050 T spiInit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:2000c000 A __top_RamAHB16
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1008a000 A __top_RamLoc40
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000198 00000002 W SVC_Handler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1000004c 00000004 D DWT_CTRL
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002724 00000018 T uartTxReady
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001564 00000058 T f_mount
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W GPIO7_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0036f4 0000003c T Chip_Clock_EnableOpts
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000478 00000010 T adcStructConfig
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0034bc 000000b8 T Chip_Clock_GetClockInputHz
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0037fc 00000058 T fpuInit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003574 00000080 T Chip_Clock_CalcMainPLLValue
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002d80 0000001c T SystemInit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W SPIFI_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002868 00000038 T delay
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W QEI_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000150 T __bss_section_table
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003764 00000018 T Chip_Clock_RTCEnable
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0024c0 00000058 T gpioWrite
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0030cc 00000040 T Chip_ADC_Init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002d9c 00000034 T Board_SetupMuxing
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00036c 0000010c T showDateAndTime
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0021e4 00000030 T rtcWrite
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002f7c 000000e4 T Chip_UART_SetBaudFDR
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002588 0000000c T tickRead
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:100005a8 00000008 B tickRateMS
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00320c 00000022 T Chip_ADC_SetBurstCmd
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W ETH_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1000056c 00000004 B tickHookFunction
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000000 ? _end_uninit_RESERVED
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00273c 00000014 T uartTxWrite
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W CAN0_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:10000000 D _data
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002594 00000020 T tickCallbackSet
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:100005b4 B _pvHeapStart
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000178 T __section_table_end
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003c68 00000038 T Chip_SSP_Init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W GINT0_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W DAC_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002d20 00000024 T Board_Debug_Init
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003164 0000001e T Chip_ADC_Int_SetChannelCmd
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:100000cc D _edata
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002e48 00000020 T Chip_I2C_EventHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W M0SUB_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001798 000001a8 T f_write
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00395c 00000150 T Chip_SetupCoreClock
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0022b8 0000000a T GPIO0_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0015bc 000001dc T f_open
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001e14 000000ac T disk_write
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000000 00000114 T g_pfnVectors
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003ca0 00000084 T ResetISR
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003230 00000014 T SystemCoreClockUpdate
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0038f0 00000020 T Chip_RTC_CalibCounterCmd
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W DMA_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W EVRT_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1b080000 A __top_MFlashB512
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003db8 00000002 W __aeabi_idiv0
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a000190 00000002 W BusFault_Handler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a004320 00000010 T strlen
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a001d8c 00000088 T disk_read
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003730 00000034 T Chip_Clock_Enable
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a00280c 0000000a T UART3_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W MCPWM_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003d58 0000002e T __gnu_ldivmod_helper
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W M0APP_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002518 00000058 T gpioRead
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002ae8 000000f4 T boardInit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W GINT1_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0025b4 00000018 T tickPowerSet
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a003680 00000044 T Chip_Clock_SetBaseClock
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0022dc 0000001c T cyclesCounterInit
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a0001a8 00000002 W GPIO4_IRQHandler
+MisProyectos/protocolosEjer1/out/protocolosEjer1.elf:1a002e3c 0000000c T Board_SystemInit
