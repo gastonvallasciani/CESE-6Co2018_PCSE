@@ -1,7 +1,7 @@
 # CESE-6Co2018_PCSE
 Repositorio protocolos de comunicacion en sistemas embebidos
 
-Ejercicio 1: Logueo de 3 canales ADC en sd.
+Ejercicio 1: Logueo de 3 canales ADC con timestamp en tarjeta sd.
 
 Ejercicio 2: Conexion Bluetooth con aplicacion creada en MIT App Inventor.
 
